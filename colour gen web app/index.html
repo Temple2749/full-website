@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Color Generator</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Color Generator</h1>
+	<form>
+		<label for="hue">Hue:</label>
+		<input type="range" id="hue" name="hue" min="0" max="360" value="0">
+
+		<label for="saturation">Saturation:</label>
+		<input type="range" id="saturation" name="saturation" min="0" max="100" value="50">
+
+		<label for="lightness">Lightness:</label>
+		<input type="range" id="lightness" name="lightness" min="0" max="100" value="50">
+
+		<button type="button" id="generate-btn">Generate Color</button>
+	</form>
+
+	<div id="color-box"></div>
+
+	<script src="script.js"></script>
+</body>
+</html>
